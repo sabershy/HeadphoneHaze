@@ -1,6 +1,24 @@
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,bold);
+* {
+	padding: 0em;
+	margin: 0em;
+}
+html {
+    width: 100%}
+body {
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #222;
+    background-image: url('https://i.imgur.com/jIyKeaq.jpg');
+    font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    color: #fff;
+}
 
-// Post Mod Header
+/* Post Mod Header */
 
 .main_column a[href^="http"], .main_column a[href^="https"] { padding: 0 10px 0 0; background: url(images/external.png) 100% 4px no-repeat; }
 .main_column a[href^="http"]:hover, .main_column a[href^="https"]:hover { padding: 0 10px 0 0; background: url(images/external.png) 100% 4px no-repeat !important; }
@@ -237,25 +255,7 @@ img {
 	margin: 0;
 }
 
-// Haze Header
-* {
-    padding: 0;
-    margin: 0;
-}
-html {
-    width: 100%}
-body {
-    background-attachment: fixed;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: #222;
-    background-image: url('https://i.imgur.com/jIyKeaq.jpg');
-    font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
-    font-size: 12px;
-    font-weight: 300;
-    color: #fff;
-}
+/* Haze Header */
 #extra3:after {
     background-image: url('https://i.imgur.com/jIyKeaq.jpg');
 }
@@ -670,7 +670,7 @@ table {
 tr {
     border: solid rgba(255, 255, 255, 0.05);
     border-width: 0 0 1px 0;
-    background: rgba(25, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.25);
 }
 tr.rowa {
     background: url("https://i.imgur.com/0WneaBT.png") repeat !important;
@@ -1691,7 +1691,7 @@ img[src="static/common/symbols/donor_6.png"] {
     color: #fff !important;
 }
 
-// Blur
+/* Blur */
 
 body {
   background-size: cover;
